@@ -47,7 +47,7 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/${{ steps.vars.outputs.owner_lower }}/XFast:latest
+            ghcr.io/${{ steps.vars.outputs.owner_lower }}/xfast:latest
           labels: |
             org.opencontainers.image.source=https://github.com/${{ steps.vars.outputs.repo_lower }}
             org.opencontainers.image.description=http server
